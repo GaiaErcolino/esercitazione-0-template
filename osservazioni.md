@@ -13,15 +13,15 @@ saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione:gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
 
-Comando di esecuzione e risultato osservato:
+Comando di esecuzione e risultato osservato:./hello . Abbiamo osservato il messaggio:"Hello, computational physics!"
 
-Che cosa ho capito su sorgente ed eseguibile:
+Che cosa ho capito su sorgente ed eseguibile: La sorgente è il file hello.c su cui si scrive e si apportano le modifiche. L'eseguibile è il file che mi dà l'output richiesto. Se eseguo senza compilare un file con delle modifiche, allora come  output avrò quello dell'ultimo file compilato. 
 
-Output richiesto e comportamento del programma prima della modifica:
+Output richiesto e comportamento del programma prima della modifica: L'output richiesto era "Hello, computational physics!". Prima della modifica, dato che il main era tutto commentato, non accadeva nulla all'esecuzione del programma.
 
-Esito dopo la modifica e spiegazione della correzione:
+Esito dopo la modifica e spiegazione della correzione:Dopo la modifica appariva il messaggio richiesto.
 
 ## Step 1 — Git
 
